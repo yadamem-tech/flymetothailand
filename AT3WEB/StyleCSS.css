@@ -1,0 +1,146 @@
+/*Background-Body*/
+body {
+    background-image: url("images/Background.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0;
+    height: 100vh;
+    font-family: Trebuchet MS, sans-serif;
+}
+/*Text*/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 24px;
+	line-height: 0.5;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*Content Box*/
+.content-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 40px;
+    margin: 100px;
+    width: 80%;
+    border-radius: 30px;
+    text-align: left;
+}
+
+/*Navigation Bar*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	z-index: 1000;
+}
+
+/*Logo*/
+.logo {
+    height: 70px;
+    width: auto;
+    margin-left: 0px;
+}
+
+/*Menu*/
+.navbar ul {
+    list-style: none;
+	display: flex;
+	gap: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.navbar li {
+    display: inline;
+    margin: 0 30px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: gold;
+}
+
+/*Image*/
+.center-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+}
+
+/*Tables*/
+.tour-table {
+    width: 50%;
+    margin: 0%;
+    border-collapse: collapse;
+}
+
+.tour-table th,
+.tour-table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.tour-table th {
+    background-color: #f2f2f2;
+}
+
+/*Footer*/
+.footer {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: gold;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+	font-size: 14px;
+}
+
